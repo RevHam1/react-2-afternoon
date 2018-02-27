@@ -8,6 +8,9 @@ class EmployeeEditor extends Component {
       originalEmployee: null,
       notModified: true
     };
+    this.handleChange = this.handleChange.bind(this);
+    this.cancel = this.cancel.bind(this);
+    this.save = this.save.bind(this);
   }
 
   componentWillReceiveProps(props) {
