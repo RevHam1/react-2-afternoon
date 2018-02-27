@@ -14,7 +14,7 @@ class App extends Component {
       selectedEmployee: null
     };
     this.selectEmployee = this.selectEmployee.bind( this );
-    this.selerefreshctEmployee = this.selectEmployee.bind( this ); 
+    this.refresh = this.refresh.bind( this ); 
   }
 
   selectEmployee(employee) {
